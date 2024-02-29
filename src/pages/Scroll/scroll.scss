@@ -1,0 +1,32 @@
+body {
+  color: white;
+  overflow-x: hidden;
+}
+
+#Scroll {
+  margin-top: 150px;
+
+  canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  main {
+    position: absolute;
+    width: 100vw;
+    height: 200vh;
+    z-index: 100;
+    justify-content: center;
+    text-align: center;
+    font-size: 4rem;
+    // margin-top: 70px;
+  }
+
+  section {
+    min-height: calc(100vh - 200px);
+    padding: 20px;
+    font-size: 3.5rem;
+  }
+
+}

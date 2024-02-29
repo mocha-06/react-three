@@ -1,0 +1,79 @@
+// html {
+  /* background-color: #5e5768; */
+  // background-image: url("/public/images/LandingBg.jpg");
+  // background-size: cover;
+// }
+
+
+#Landing {
+  overflow: hidden;
+  backdrop-filter: blur(25px);
+
+  .webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+  }
+
+  main {
+    height: 100vh;
+    color: #f0f5f2;
+    position: relative;
+
+    .content {
+      position: absolute;
+      top: 20%;
+      left: 7%;
+    }
+
+    h1 {
+      font-size: 6rem;
+      margin-bottom: 3rem;
+      /* text-shadow: 0 5px 6px black; */
+    }
+
+    a {
+      color: #f0f5f2;
+    }
+
+    p {
+      font-size: 1.3rem;
+      margin-bottom: 2.5rem;
+      line-height: 35px;
+      font-weight: 500;
+    }
+
+    button {
+      padding: 1.5rem 3rem;
+      background: transparent;
+      border: 1px solid #aaa;
+      color: #f0f5f2;
+      font-size: 1.4rem;
+      cursor: pointer;
+      transition: all 0.5s;
+
+      a {
+      transition: all 0.5s;
+      }
+
+    }
+    button:hover {
+      background: #f0f5f2;
+      border: 1px solid #494646;
+
+      a {
+        color: #494646;
+      }
+    }
+  }
+}
+.lil-gui.autoPlace {
+  max-height: 200px;
+  top: 70px;
+  right: 0;
+
+  @media (max-width: 700px) {
+    top: 100px;
+  }
+}
